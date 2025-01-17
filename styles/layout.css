@@ -77,7 +77,6 @@ main{
 
 h2{
     background-color: #a2d1bf;
-    margin-bottom: 20px;
     border: 1px solid white;
     text-align: center;
     font-size: 32px;
@@ -111,6 +110,70 @@ h2{
 
 .card-3 {
     grid-column: 1/4;
+    border: white 1px solid;
+    border-radius: 7px;
+    background-color: white;
+    filter: drop-shadow(0 0 1rem black);
+}
+
+.blocks li {
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: rgb(49, 29, 29);
+    color: white;
+    margin: 5px;
+}
+
+.blocks ul { 
+    display: flex; 
+    flex-wrap: wrap; 
+    list-style: none; 
+    padding: 0; 
+}
+
+.blocks {
+    padding: 15px;
+    border: solid 1px black;
+    background-color: white;
+    flex-wrap: wrap; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+}
+
+.courses li {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: rgb(83, 22, 22);
+    color: white;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+} 
+
+.courses {
+    padding: 15px;
+    border: solid 1px black;
+    background-color: white;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.courses ul { 
+    display: flex; 
+    flex-wrap: wrap; 
+    list-style: none; 
+    padding: 10px; 
 }
 
 footer{
