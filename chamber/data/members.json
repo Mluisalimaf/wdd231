@@ -1,0 +1,70 @@
+{
+    "quantity": "7",
+    "membersOfCC": "Yes",
+    "onlineShopping": "Yes",
+    "members": [
+        {
+            "name": "",
+            "adress": "",
+            "phoneNumber": "",
+            "website": "",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "",
+            "adress": "",
+            "phoneNumber": "",
+            "website": "",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "",
+            "adress": "",
+            "phoneNumber": "",
+            "website": "",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "",
+            "adress": "",
+            "phoneNumber": "",
+            "website": "",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "",
+            "adress": "",
+            "phoneNumber": "",
+            "website": "",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "",
+            "adress": "",
+            "phoneNumber": "",
+            "website": "",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "",
+            "adress": "",
+            "phoneNumber": "",
+            "website": "",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        }
+    ]
+}
