@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.toggle-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.hero {
+
+    margin: 20px;
+    text-align: center;
+}
+
+.hero-image {
+    background: rgb(172, 169, 169);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hero button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.content {
+    padding: 20px;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-sections > div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    flex: 1 1 30%;
+    box-sizing: border-box;
+}
+
+.business-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.business-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background: #fff;
+    flex: 1 1 30%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer .social-media-icons {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero-image {
+        padding: 10px;
+    }
+
+    .info-sections {
+        flex-direction: column;
+    }
+
+    .info-sections > div {
+        flex: 1 1 100%;
+    }
+
+    .business-cards {
+        flex-direction: column;
+    }
+
+    .business-card {
+        flex: 1 1 100%;
+    }
+}
