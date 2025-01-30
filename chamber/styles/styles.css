@@ -114,6 +114,10 @@ footer .social-media-icons {
     margin-top: 10px;
 }
 
+
+
+
+
 @media only screen and (max-width: 768px) {
     header {
         flex-direction: column;

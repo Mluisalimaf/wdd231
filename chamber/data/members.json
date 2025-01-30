@@ -4,13 +4,13 @@
     "onlineShopping": "Yes",
     "members": [
         {
-            "name": "",
-            "adress": "",
-            "phoneNumber": "",
-            "website": "",
+            "name": "José Martinez",
+            "adress": "R. Candelaria, n:25",
+            "phoneNumber": "21-956321478",
+            "website": "https://rosadesaron.com.br",
             "imageIconFile": "",
-            "membershipLevel": "",
-            "memberSince": ""
+            "membershipLevel": "Iniciante",
+            "memberSince": "12/05/2018"
         },
         {
             "name": "",

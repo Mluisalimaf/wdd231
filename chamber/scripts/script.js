@@ -70,3 +70,9 @@ display3DayForecast(next3DaysForecast);
 
 const lastModified = document.lastModified;
 document.getElementById("lastModified").textContent = "Last modified: " + lastModified;
+
+
+
+
+
+
