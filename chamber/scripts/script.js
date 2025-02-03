@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 async function fetchWeather(){
-    const apiKey = '4ad06436fb572f4da2c9699ff40ed934';
+    const apiKey = 'minha-api';
     const city = 'Rio de Janeiro';
     const weatherUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric';
 
