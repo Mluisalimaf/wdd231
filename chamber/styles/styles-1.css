@@ -34,7 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /
+    flex-wrap: wrap;
 }
 
 header .logo img {
@@ -44,6 +44,7 @@ header .logo img {
 .logo img {
     transition: transform 0.3s ease;
 }
+
 .logo img:hover {
     transform: scale(1.1);
 }
@@ -223,6 +224,7 @@ footer .social-media-icons {
         width: 100%;
         padding: 15px;
     }
+
     .business-card {
         margin: 10px 0;
     }
