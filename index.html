@@ -59,13 +59,18 @@
 
             <div class="courses">
                 <ul>
-                    <li><a href="#"></a>CSE 110</li>
-                    <li><a href="#"></a>WDD 130</li>
-                    <li><a href="#"></a>CSE 111</li>
-                    <li><a href="#"></a>CSE 210</li>
-                    <li><a href="#"></a>WDD 131</li>
-                    <li><a href="#"></a>WDD 231</li>
+                    <li><a href="#" onclick="showCourseDetails('CSE 110')">CSE 110</a></li>
+                    <li><a href="#" onclick="showCourseDetails('WDD 130')">WDD 130</a></li>
+                    <li><a href="#" onclick="showCourseDetails('CSE 111')">CSE 111</a></li>
+                    <li><a href="#" onclick="showCourseDetails('CSE 210')">CSE 210</a></li>
+                    <li><a href="#" onclick="showCourseDetails('WDD 131')">WDD 131</a></li>
+                    <li><a href="#" onclick="showCourseDetails('WDD 231')">WDD 231</a></li>
                 </ul>
+
+                <dialog id="course-details">
+                    <p id="details-text"></p>
+                    <button onclick="document.getElementById('course-details').close()">Close</button>
+                </dialog>
             </div>
         </section>
     </main>
