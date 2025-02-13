@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  header {
+    color: #b1607a;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-family: "Barlow", sans-serif;
+    font-size: 2.5rem;
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  section ul li {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+}
