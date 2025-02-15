@@ -28,9 +28,7 @@ if (!lastVisit) {
 } else {
     const daysSinceLastVisit = Math.floor((currentDate - lastVisit) / (1000 * 60 * 60 * 24));
     if (daysSinceLastVisit < 1) {
-        visitMessage.textContent = "Back so soon! Awesome!";
-    } else {
-        visitMessage.textContent = `You last visited ${daysSinceLastVisit} ${daysSinceLastVisit === 1 ? 'day' : 'days'} ago.`;
+        visitMessage.textContent = "Welcome!";
     }
 }
 
