@@ -1,3 +1,4 @@
+// Função para carregar os itens do menu a partir do JSON
 async function loadMenu() {
     const response = await fetch('salon.json');
     const data = await response.json();
@@ -11,7 +12,7 @@ async function loadMenu() {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.textContent = item.text;
-        a.href = item.link;
+        a.href = item.link; // Usa o link do JSON
         li.appendChild(a);
         navList.appendChild(li);
     });
@@ -23,35 +24,26 @@ function toggleMenu() {
     nav.classList.toggle('active');
 }
 
-// Carrega o menu quando a página é carregada
+// Carrega o menu e adiciona eventos quando a página é carregada
 document.addEventListener('DOMContentLoaded', () => {
     loadMenu();
 
     // Adiciona o evento de clique ao botão do menu hambúrguer
     const hamburgerBtn = document.getElementById('hamburger-btn');
     hamburgerBtn.addEventListener('click', toggleMenu);
-});
 
+    // Validação do formulário de agendamento (se existir na página)
+    const bookingForm = document.getElementById('booking-form');
+    if (bookingForm) {
+        bookingForm.addEventListener('submit', function (event) {
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const date = document.getElementById('date').value;
 
-function toggleMenu() {
-    const nav = document.getElementById('main-nav');
-    nav.classList.toggle('active');
-}
-
-// Adiciona o evento de clique ao botão do menu hambúrguer
-document.addEventListener('DOMContentLoaded', () => {
-    const hamburgerBtn = document.getElementById('hamburger-btn');
-    hamburgerBtn.addEventListener('click', toggleMenu);
-});
-
-
-document.getElementById('booking-form').addEventListener('submit', function (event) {
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const date = document.getElementById('date').value;
-
-    if (!name || !email || !date) {
-        alert('Por favor, preencha todos os campos.');
-        event.preventDefault();
+            if (!name || !email || !date) {
+                alert('Please fill in all fields.');
+                event.preventDefault();
+            }
+        });
     }
 });

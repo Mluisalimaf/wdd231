@@ -1,9 +1,9 @@
-
 {
     "menuItems": [
-        { "text": "Serviços", "link": "#services" },
-        { "text": "Sobre Nós", "link": "#about" },
-        { "text": "Contato", "link": "#contact" },
-        { "text": "Agendamento", "link": "#booking" }
-]
+        { "text": "Home", "link": "index.html" },
+        { "text": "Services", "link": "services.html" },
+        { "text": "Contact", "link": "contact.html" },
+        { "text": "Gallery", "link": "gallery.html" },
+        { "text": "Book Now", "link": "book.html" }
+    ]
 }
