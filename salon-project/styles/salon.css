@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,6 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* Menu de navegação */
 #main-nav {
     display: flex;
 }
@@ -49,9 +48,8 @@ header h1 {
     text-decoration: underline;
 }
 
-/* Botão do menu hambúrguer */
 #hamburger-btn {
-    display: none; /* Esconde o botão em telas maiores */
+    display: none;
     background: none;
     border: none;
     color: white;
@@ -59,14 +57,13 @@ header h1 {
     cursor: pointer;
 }
 
-/* Estilos para telas menores (mobile) */
 @media (max-width: 768px) {
     #hamburger-btn {
-        display: block; /* Mostra o botão em telas menores */
+        display: block;
     }
 
     #main-nav {
-        display: none; /* Esconde o menu em telas menores */
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 80px;
@@ -77,7 +74,7 @@ header h1 {
     }
 
     #main-nav.active {
-        display: flex; /* Mostra o menu quando a classe 'active' é adicionada */
+        display: flex;
     }
 
     #nav-list {
@@ -86,16 +83,22 @@ header h1 {
     }
 }
 
-/* Conteúdo principal */
 main {
     padding: 20px;
 }
 
-/* Seção de Boas-Vindas */
 #welcome {
     text-align: center;
     padding: 50px 20px;
     background-color: #f4f4f4;
+}
+
+#welcome img {
+    margin: 20px;
+    height: 350px;
+    border: black 2px solid;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 }
 
 #welcome h2 {
@@ -121,7 +124,6 @@ main {
     background-color: #9a4f68;
 }
 
-/* Seção de Serviços */
 #services {
     padding: 50px 20px;
     text-align: center;
@@ -150,7 +152,6 @@ main {
     margin-bottom: 10px;
 }
 
-/* Seção Sobre Nós */
 #about {
     padding: 50px 20px;
     background-color: #f4f4f4;
@@ -162,7 +163,6 @@ main {
     margin-bottom: 20px;
 }
 
-/* Seção de Contato */
 #contact {
     padding: 50px 20px;
     text-align: center;
@@ -173,7 +173,6 @@ main {
     margin-bottom: 20px;
 }
 
-/* Seção de Agendamento */
 #booking {
     padding: 50px 20px;
     background-color: #f4f4f4;
@@ -244,7 +243,6 @@ form button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Rodapé */
 footer {
     background-color: #b1607a;
     color: white;
