@@ -6,22 +6,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Faz o body ocupar pelo menos a altura da tela */
 }
 
-/* Cabeçalho */
 header {
-    background-color: #4CAF50;
+    background-color: #1c5e1e;
     color: white;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha em telas pequenas */
+    flex-wrap: wrap;
 }
 
 header .logo img {
@@ -33,7 +27,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 20px; /* Espaçamento entre os itens do menu */
+    gap: 20px;
 }
 
 nav ul li a {
@@ -61,12 +55,28 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Hero Section */
+.hero {
+    margin: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.sales {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 /* Footer */
 footer {
     background-color: #4CAF50;
     color: white;
     text-align: center;
     padding: 20px;
+    position: relative;
 }
 
 footer .social-media-icons {
@@ -90,5 +100,25 @@ footer .social-media-icons {
     .toggle-button {
         align-self: flex-end; /* Alinha o botão à direita */
         margin-top: 10px;
+    }
+
+    .hero-image {
+        padding: 10px;
+    }
+
+    .info-sections {
+        flex-direction: column;
+    }
+
+    .info-sections > div {
+        flex: 1 1 100%;
+    }
+
+    .business-cards {
+        flex-direction: column;
+    }
+
+    .business-card {
+        flex: 1 1 100%;
     }
 }

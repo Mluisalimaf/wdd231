@@ -1,0 +1,52 @@
+* {
+  display: block;
+  border-radius: 6px;
+  }
+  
+  .nav a:hover,
+  .nav a:focus {
+  background: #dcdcdc;
+  }
+  
+  /* show menu when JS toggles class */
+  .nav.show-menu {
+  display: flex;
+  }
+  
+  
+  /* Large screens: show nav horizontally and hide hamburger */
+  @media (min-width: 768px) {
+  header {
+  grid-template-columns: 24px auto; /* remove space for hamburger */
+  }
+  
+  
+  .hamburger {
+  display: none;
+  }
+  
+  
+  /* place nav on the same row visually: keep it visible and horizontal */
+  .nav {
+  display: flex !important;
+  flex-direction: row;
+  gap: 12px;
+  padding: 0 14px;
+  background: transparent;
+  align-items: center;
+  justify-content: flex-end;
+  }
+  
+  
+  .nav a {
+  padding: 8px 10px;
+  border-radius: 0;
+  }
+  }
+  
+  
+  /* small accessibility helper: focus outline */
+  :focus {
+  outline: 2px solid #2d9cdb;
+  outline-offset: 2px;
+  }

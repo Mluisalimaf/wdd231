@@ -1,5 +1,4 @@
-//fetch and display the member data
-async function fetchMembers() {
+/*async function fetchMembers() {
     try{
         const response = await fetch('data/members.json');
         const data = await response.json();
@@ -97,5 +96,8 @@ displayCurrentWeather();
 
 function getDayName(date, locale) {
     return date.toLocaleDateString(locale, { weekday: 'long' });
-}
+}*/
+
+const lastModified = document.lastModified; 
+document.getElementById('lastModified').textContent = "Last Modified: " + lastModified;
 

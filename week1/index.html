@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Luisa Ferraz">
+    <meta name="description" content="WDD 231 - Home Page.">
+
+    <meta property="og:title" content="Home Page" /> 
+    <meta property="og:type" content="website" /> 
+    <meta property="og:image" content="https://photo620x400.mnstatic.com/087dfd415e06b0651f4528fea6642818/rio-de-janeiro.jpg?quality=70&format=png" /> 
+    <meta property="og:url" content="https://myhomepage.com/my-home-page-ml" />
+
+    <link rel="stylesheet" href="styles/layout.css">
+    <title>WDD 231 - Maria Luisa Ferraz</title>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="perfil">
+            <img src="images/photo-perfil.jpg"  class="perfil" alt="I am a white woman, with long brown hair and brown eyes.">
+            <h1>Maria Luisa Ferraz</h1>
+        </div>
+        <nav>
+            <ul class = "menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">GitHub Profile</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card-1">
+            <h2>Course Work</h2>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </section>
+
+        <section class ="card-2">
+            <h2>Rio de Janeiro, Brazil</h2>
+            <img src="images/rj-photo.png" alt="Rio de Janeiro photo">
+        </section> 
+
+        <section class="card-3">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="blocks">
+                <ul>
+                    <li><a href="#"></a>All</li>
+                    <li><a href="#"></a>CSE</li>
+                    <li><a href="#"></a>WDD</li>
+                </ul>
+            </div>
+
+            <div class="courses">
+                <ul>
+                    <li><a href="#" onclick="showCourseDetails('CSE 110')">CSE 110</a></li>
+                    <li><a href="#" onclick="showCourseDetails('WDD 130')">WDD 130</a></li>
+                    <li><a href="#" onclick="showCourseDetails('CSE 111')">CSE 111</a></li>
+                    <li><a href="#" onclick="showCourseDetails('CSE 210')">CSE 210</a></li>
+                    <li><a href="#" onclick="showCourseDetails('WDD 131')">WDD 131</a></li>
+                    <li><a href="#" onclick="showCourseDetails('WDD 231')">WDD 231</a></li>
+                </ul>
+
+                <dialog id="course-details">
+                    <p id="details-text"></p>
+                    <button onclick="document.getElementById('course-details').close()">Close</button>
+                </dialog>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2024 🦋 Maria Luisa Ferraz 🏖️ Rio de Janeiro, Brazil</p>
+        <span id="currentyear"></span>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>
