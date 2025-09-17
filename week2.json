@@ -1,0 +1,19 @@
+{
+    "familyName": "Ferraz",
+    "dateMovedIntoWard": "19-04-2019",
+    "numberOfRecords": 2,
+    "visitedByBishopric": "False",
+    "individualFamilyMemberData": [
+        {
+        "name": "Emerson Ferraz",
+        "gender": "Male",
+        "birthDate": "12-06-1994"
+        },
+        {
+        "name": "EMaria Ferraz",
+        "gender": "Female",
+        "birthDate": "25-09-1997"
+        }
+    ]
+}
+    
