@@ -42,5 +42,22 @@ async function displayMembers() {
 
 displayMembers();
 
+
+
+const gridBtn = document.getElementById("gridView");
+const listBtn = document.getElementById("listView");
+const container = document.querySelector(".business-cards");
+
+gridBtn.addEventListener("click", () => {
+    container.classList.remove("list-view"); // volta para grid
+});
+
+listBtn.addEventListener("click", () => {
+    container.classList.add("list-view"); // muda para lista
+});
+
+
+
+
 const lastModified = document.lastModified; 
 document.getElementById('lastModified').textContent = "Last Modified: " + lastModified;
