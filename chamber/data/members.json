@@ -1,0 +1,70 @@
+{
+    "quantity": "7",
+    "membersOfCC": "Yes",
+    "onlineShopping": "Yes",
+    "members": [
+        {
+            "name": "José Martinez",
+            "adress": "R. Candelaria, n:25",
+            "phoneNumber": "21-956321478",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "Iniciante",
+            "memberSince": "12/05/2018"
+        },
+        {
+            "name": "Ana Mendes",
+            "adress": "R, 15, n55",
+            "phoneNumber": "21-945761328",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "Rony Campos",
+            "adress": "R Cedi Lemos, n40",
+            "phoneNumber": "21956321486",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "Paulo Ferreira",
+            "adress": "R. 20, travessa 1, n3",
+            "phoneNumber": "21-985321456",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "Celma Otto",
+            "adress": "R. Vivaldi, n34",
+            "phoneNumber": "21-986534217",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "Andre Lima",
+            "adress": "R. Agostinho Carrara, n9",
+            "phoneNumber": "21-986321543",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        },
+        {
+            "name": "Percival Woolfrick",
+            "adress": "R. Lemos Castro, n18",
+            "phoneNumber": "21-9836521456",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "",
+            "memberSince": ""
+        }
+    ]
+}

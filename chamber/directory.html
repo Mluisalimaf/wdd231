@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico">
     <meta name="author" content="Maria Luisa Ferraz">
-    <meta name="description" content="WDD 231 - Chamber of Commerce.">
+    <meta name="description" content="WDD 231 - Home Page.">
     <title>WDD 231 - Week 01</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +15,76 @@
   <meta name="facebook:url" content="https://www.facebook.com/?locale=pt_BR">
 </head>
 <body>
-    
+
+  <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="RIO Chamber of Commerce">
+        </div>
+    <!-- Botão Hamburguer -->
+    <div class="menu-btn" id="menu-btn">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <!-- Menu de navegação -->
+    <nav class="menu" id="menu">
+      <ul>
+       <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+            <h5>Rio de Janeiro - Chamber of Commerce view</h5>
+            <div class="hero-image">
+                <img src="images/sugarloaf.jpg" alt="The famous Sugar Loaf mountain in Rio de Janeiro">
+            </div>
+        </section>
+        <section class="content">
+            <h1>Home</h1>
+            <div class="info-sections">
+                <div class="events">
+                    <h2>Events</h2>
+                    <div class="events-content"></div>
+                </div>
+                <div class="current-weather">
+                    <h2>Current Weather</h2>
+                    <div class="weather-details">
+                        <p id="weather-description"></p>
+                        <p id="temperature"></p>
+                        <p id="humidity"></p>
+                        <p id="wind-speed"></p>
+                    </div>
+                </div>
+                <div class="weather-forecast">
+                    <h2>Weather Forecast</h2>
+                    <div id="forecast-days"></div>
+                </div>
+            </div>
+        </section>
+          <div class="business-cards"></div> 
+  </main>
+
+  <footer>
+    <div class="footer-content">
+
+      <div class="extra">
+      <a href="https://br.linkedin.com/"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+      <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+      </div>
+
+      <p>WDD 231, Class Project</p>
+      <p>Maria Ferraz</p>
+      <p>©2025, Chamber of Commerce<span id="currentyear"></span></p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js" defer></script>
 </body>
 </html>
