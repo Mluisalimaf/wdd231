@@ -1,0 +1,34 @@
+{
+    "quantity": "3",
+    "membersOfCC": "Yes",
+    "onlineShopping": "Yes",
+    "members": [
+        {
+            "name": "Ana Mendes",
+            "adress": "R, 15, n55",
+            "phoneNumber": "21-945761328",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "Gold",
+            "memberSince": ""
+        },
+        {
+            "name": "Rony Campos",
+            "adress": "R Cedi Lemos, n40",
+            "phoneNumber": "21956321486",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "Silver",
+            "memberSince": ""
+        },
+        {
+            "name": "Paulo Ferreira",
+            "adress": "R. 20, travessa 1, n3",
+            "phoneNumber": "21-985321456",
+            "website": "https://rosadesaron.com.br",
+            "imageIconFile": "",
+            "membershipLevel": "Gold",
+            "memberSince": ""
+        }
+    ]
+}

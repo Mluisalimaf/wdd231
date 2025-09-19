@@ -92,8 +92,18 @@ header .logo img {
 
 /* Content Section */
 .content {
-    padding: 20px;
+    margin: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px; /
 }
+
+.current-weather, .weather-forecast{
+    border: 1px solid black; 
+    margin: 0;
+    padding: 35px;
+}
+
 
 .info-sections {
     display: flex;
@@ -183,11 +193,14 @@ footer .social-media-icons {
         position: absolute;
         top: 60px;
         right: 0;
-        width: 200px;
+        width: 100px;
+        max-width: 300px;
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
         padding: 10px 0;
         margin: 0;
+        box-sizing: border-box;
+        z-index: 1000;
   }
 
   .menu ul li {
@@ -200,6 +213,16 @@ footer .social-media-icons {
   .menu.show ul {
         transform: translateX(0);
   }
+
+   .content {
+        grid-template-columns: 1fr; /* só uma coluna */
+        gap: 20px; /* espaçamento menor */
+        margin: 20px; /* ajuste das margens */
+    }
+
+    .current-weather, .weather-forecast {
+        padding: 20px; /* menos padding em celular */
+    }
 
     .hero-image {
         padding: 10px;

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <meta name="author" content="Maria Luisa Ferraz">
+    <meta name="description" content="WDD 231 - Home Page of the project Chamber of Commerce.">
+    <title>Rio Chamber of Commerce - Home Page</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta property="og:title" content="Facebook – Videos, Channels, Influencers, Friends">
+  <meta property="og:description" content="Facebook - Explore Facebook and everything it has for you.">
+  <meta property="og:image" content="https://mluisalimaf.github.io/wdd231/chamber/images/logo.jpg">
+  <meta property="og:url" content="https://mluisalimaf.github.io/wdd231/chamber/directory.html">
+  <meta property="og:type" content="website">
+</head>
+<body>
+
+  <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="RIO Chamber of Commerce">
+        </div>
+    <!-- Botão Hamburguer -->
+    <div class="menu-btn" id="menu-btn">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <!-- Menu de navegação -->
+    <nav class="menu" id="menu">
+      <ul>
+       <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Discover</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section class="content">
+      </div>
+      <div class="current-weather">
+        <h2>Current Weather</h2>
+      <div class="weather-details">
+        <p id="weather-description"></p>
+        <p id="temperature"></p>
+        <p id="humidity"></p>
+        <p id="wind-speed"></p>
+      </div>
+      </div>
+      <div class="weather-forecast">
+        <h2>Weather Forecast</h2>
+      <div id="forecast-days"></div>
+      </div>
+      </div>
+    </section>
+
+    <section class="spotlights">
+      <div class="business-cards"></div> ****
+      <h2>Member Spotlights</h2>
+      <div id="spotlight-container" class="spotlight-container">
+    
+      </div>
+    </section>
+
+  </main>
+
+
+  <div class="view-toggle" style="text-align: center; margin-bottom: 20px;">
+    <button id="gridView">Grid</button>
+    <button id="listView">List</button>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+
+      <div class="extra">
+      <a href="https://br.linkedin.com/"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+      <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+      </div>
+
+      <p>WDD 231, Class Project</p>
+      <p>Maria Ferraz</p>
+      <p>©2025, Chamber of Commerce<span id="currentyear"></span></p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+  <script src="scripts/membergs.js" defer></script>
+  <script src="scripts/currentweather.js" defer></script>
+  <script src="scripts/script.js" defer></script>
+</body>
+</html>
