@@ -84,6 +84,10 @@ header .logo img {
     border-radius: 15px;
 }
 
+h1{
+    text-align: center;
+}
+
 /* Content Section */
 .content {
     margin: 45px;
@@ -98,45 +102,25 @@ header .logo img {
     padding: 35px;
 }
 
+.spotlights img {
+    width: 150px;
+    border-radius: 25px;
+}
 
-.info-sections {
+h2 {
+    text-align: center;
+}
+
+.bussines-cards{
+    border: 1px solid black;
+}
+
+.spotlight-container {
+    border: 1px solid black;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.info-sections > div {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    flex: 1 1 30%;
-    box-sizing: border-box;
-}
-
-/* Layout padrão (grade) */
-.business-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-}
-
-.business-card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 5px;
-    flex: 1 1 calc(33.333% - 40px); /* 3 colunas */
-    box-sizing: border-box;
-}
-
-/* Layout alternativo (lista) */
-.business-cards.list-view {
-    flex-direction: column;
-}
-
-.business-cards.list-view .business-card {
-    flex: 1 1 100%; /* Uma coluna */
+    justify-content: center;
+    margin: 55px;
+    padding: 25px;
 }
 
 /* Footer */

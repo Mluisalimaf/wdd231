@@ -8,7 +8,7 @@
             "adress": "R, 15, n55",
             "phoneNumber": "21-945761328",
             "website": "https://rosadesaron.com.br",
-            "imageIconFile": "",
+            "imageIconFile": "images/ana.jpg",
             "membershipLevel": "Gold",
             "memberSince": ""
         },
@@ -17,7 +17,7 @@
             "adress": "R Cedi Lemos, n40",
             "phoneNumber": "21956321486",
             "website": "https://rosadesaron.com.br",
-            "imageIconFile": "",
+            "imageIconFile": "images/campos.jpg",
             "membershipLevel": "Silver",
             "memberSince": ""
         },
@@ -26,7 +26,7 @@
             "adress": "R. 20, travessa 1, n3",
             "phoneNumber": "21-985321456",
             "website": "https://rosadesaron.com.br",
-            "imageIconFile": "",
+            "imageIconFile": "images/pf.jpg",
             "membershipLevel": "Gold",
             "memberSince": ""
         }
