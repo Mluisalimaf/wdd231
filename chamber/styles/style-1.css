@@ -10,7 +10,6 @@ body {
     padding: 0;
 }
 
-/* Cabeçalho */
 header {
     background-color: #070c08;
     color: white;
@@ -38,10 +37,9 @@ header .logo img {
     transition: color 0.3s;
 }
 
-
-/*HAMBURGUER button */
+/* HAMBURGUER button */
 .menu-btn {
-    display: none; 
+    display: none; /* escondido no desktop */
     flex-direction: column;
     justify-content: space-between;
     margin-left: auto;
@@ -68,7 +66,7 @@ header .logo img {
     transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* Hero Section */
+
 .hero {
     margin: 20px;
     text-align: center;
@@ -82,18 +80,19 @@ header .logo img {
 
 .hero-image img{
     border-radius: 15px;
+    max-width: 100%;
 }
 
-h1{
+
+h1, h2 {
     text-align: center;
 }
 
-/* Content Section */
 .content {
     margin: 45px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px; /
+    gap: 50px;
 }
 
 .current-weather, .weather-forecast{
@@ -104,26 +103,25 @@ h1{
 
 .spotlights img {
     width: 150px;
+    height: auto;
     border-radius: 25px;
-}
-
-h2 {
-    text-align: center;
-}
-
-.bussines-cards{
-    border: 1px solid black;
 }
 
 .spotlight-container {
     border: 1px solid black;
-    display: flex;
+    display: flex;          
     justify-content: center;
+    gap: 50px;
     margin: 55px;
     padding: 25px;
+    flex-wrap: wrap;
 }
 
-/* Footer */
+.bussines-cards{
+    border: 1px solid black;
+    text-align: center;
+}
+
 footer {
     background-color: #070c08;
     color: white;
@@ -149,20 +147,37 @@ footer .social-media-icons {
     margin-bottom: 2px;
 }
 
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
 
-/* Responsividade */
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
 @media only screen and (max-width: 768px) {
     header {
         flex-direction: column;
     }
 
-  /* Esconde menu padrão */
-  .menu ul {
+    .menu-btn {
+        display: flex; 
+    }
+
+    .menu ul {
         flex-direction: column;
         position: absolute;
         top: 60px;
         right: 0;
-        width: 100px;
+        width: 200px;
         max-width: 300px;
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
@@ -170,23 +185,22 @@ footer .social-media-icons {
         margin: 0;
         box-sizing: border-box;
         z-index: 1000;
-  }
+        background-color: #070c08;
+    }
 
-  .menu ul li {
+    .menu ul li {
         border-bottom: 1px solid #444;
         text-align: right;
         padding: 10px 20px;
-  }
+    }
 
-  /* Quando abre */
-  .menu.show ul {
+    .menu.show ul {
         transform: translateX(0);
-  }
+    }
 
-   .content {
-        grid-template-columns: 1fr; /* só uma coluna */
-       
-        margin: 20px; /* ajuste das margens */
+    .content {
+        grid-template-columns: 1fr; 
+        margin: 20px; 
     }
 
     .hero-image {
@@ -195,23 +209,16 @@ footer .social-media-icons {
     }
 
     .hero-image img{
-        width: 275px;
+        width: 100%;
+        max-width: 275px;
         border-radius: 15px;
     }
 
-    .info-sections {
-        flex-direction: column;
-    }
-
-    .info-sections > div {
-        flex: 1 1 100%;
-    }
-
-    .business-cards {
-        flex-direction: column;
-    }
-
-    .business-card {
-        flex: 1 1 100%;
+    .spotlight-container {
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 50px;
+        margin: 45px;
+        padding: 25px;
     }
 }
