@@ -5,7 +5,7 @@ const forecastDays = document.querySelector('#forecast-days');
 const lat = -22.910677729452182;  
 const lon = -43.276074974928235; 
 
-const apiKey = 'MyAPI';
+const apiKey = '88010e39b20bd675cc441ab3d8a49706';
 
 
 const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
