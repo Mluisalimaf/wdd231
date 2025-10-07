@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #a2d4c3;
+    position: relative;
+}
+
+.purpose{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #e7d5d5;
+    background-color: #e7d5d5;
+}
+
+.scenarios{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #b8918c;
+    background-color: #b8918c;
+}
+
+.color{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #e7d5d5;
+    background-color: #e7d5d5;
+}
+
+.typo{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #e7d5d5;
+    background-color: #e7d5d5;
+}
+
+.wireframe{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #e7d5d5;
+    background-color: #e7d5d5;
+}
+
