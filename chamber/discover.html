@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <meta name="author" content="Maria Luisa Ferraz">
+    <meta name="description" content="WDD 231 - Discover Page of the project Chamber of Commerce.">
+    <title>Rio Chamber of Commerce - Discover Page</title>
+  <link rel="stylesheet" href="styles/discover.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta property="og:title" content="Facebook – Videos, Channels, Influencers, Friends">
+  <meta property="og:description" content="Facebook - Explore Facebook and everything it has for you.">
+  <meta property="og:image" content="https://mluisalimaf.github.io/wdd231/chamber/images/logo.jpg">
+  <meta property="og:url" content="https://mluisalimaf.github.io/wdd231/chamber/directory.html">
+  <meta property="og:type" content="website">
+     <script src="scripts/discover.js" defer></script>
+      <script src="scripts/lastmodified.js" defer></script>
+</head>
+<body>
+
+  <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="RIO Chamber of Commerce">
+        </div>
+    <!-- Botão Hamburguer -->
+    <div class="menu-btn" id="menu-btn">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <!-- Menu de navegação -->
+    <nav class="menu" id="menu">
+      <ul>
+       <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+        <section class="sidebar">
+            <h1>Discover</h1>
+            <p id="visit-message"></p>
+        </section>
+        <section class="gallery">
+            <h2>Places of Interest in Rio</h2>
+            <div class="cards" id="cards-container">
+            </div>
+        </section>
+    </main>
+
+  <footer>
+    <div class="footer-content">
+
+      <div class="extra">
+      <a href="https://br.linkedin.com/"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+      <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+      </div>
+      <p>Maria Ferraz</p>
+      <p>©2025, Chamber of Commerce<span id="currentyear"></span></p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>

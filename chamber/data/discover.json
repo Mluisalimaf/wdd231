@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Christ the Redeemer",
+        "image": "images/redeemer.jpg",
+        "address": "Parque Nacional da Tijuca, Rio de Janeiro",
+        "description": "One of the New Seven Wonders of the World, this iconic statue offers breathtaking views of the city."
+    },
+    {
+        "name": "Sugarloaf Mountain",
+        "image": "images/sugarloaf.jpg",
+        "address": "Urca, Rio de Janeiro",
+        "description": "A famous peak with a cable car ride offering panoramic views of Rio."
+    },
+    {
+        "name": "Maracanã Stadium",
+        "image": "images/maracana.jpg",
+        "address": "Maracanã, Rio de Janeiro",
+        "description": "One of the most famous football stadiums in the world."
+    },
+    {
+        "name": "Ipanema Beach",
+        "image": "images/ipanema.webp",
+        "address": "Ipanema, Rio de Janeiro",
+        "description": "A trendy beach with stunning sunsets and a lively social scene."
+    },
+    {
+        "name": "Copacabana Beach",
+        "image": "images/copacabana.jpg",
+        "address": "Copacabana, Rio de Janeiro",
+        "description": "One of the most famous beaches in the world, known for its vibrant atmosphere."
+    },
+    {
+        "name": "Tijuca National Park",
+        "image": "images/park-tijuca.jpg",
+        "address": "Tijuca, Rio de Janeiro",
+        "description": "A lush urban rainforest with hiking trails and waterfalls."
+    },
+    {
+        "name": "Selarón Steps",
+        "image": "images/selaron.webp",
+        "address": "Lapa, Rio de Janeiro",
+        "description": "A colorful staircase decorated with tiles from around the world."
+    },
+    {
+        "name": "Botanical Garden",
+        "image": "images/botanical.webp",
+        "address": "Jardim Botânico, Rio de Janeiro",
+        "description": "A serene garden with diverse plant species and walking paths."
+    }
+]
