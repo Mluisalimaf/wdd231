@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #a2d4c3;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+#main-nav {
+    display: flex;
+}
+
+#nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#nav-list li a:hover {
+    text-decoration: underline;
+}
+
+#hamburger-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #hamburger-btn {
+        display: block;
+    }
+
+    #main-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #b1607a;
+        padding: 10px;
+    }
+
+    #main-nav.active {
+        display: flex;
+    }
+
+    #nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+main {
+    padding: 20px;
+}
+
+#welcome {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e7d5d5;
+}
+
+#welcome img {
+    margin: 20px;
+    height: 350px;
+    border: black 2px solid;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+#welcome h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#welcome p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #e7d5d5;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.cta-button:hover {
+    background-color: #e7d5d5;
+}
+
+#services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#about {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#booking {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#booking h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #e7d5d5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: white;
+}
+
+.cta-button {
+    background-color: #a2d4c3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #a2d4c3;
+    transform: scale(1.05);
+}
+
+.service-card {
+    background-color: #FFE4E1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #a2d4c3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
