@@ -32,34 +32,53 @@
     <main>
         <!-- Main content of the site -->
         <section id="welcome">
-            <h1>Welcome to Monica Beauty</h1>
+            <h1>Fino Mel</h1>
             <p>Your destination for realizing dreams.</p>
+            <p>Book an appointment in our place.</p>
         </section>
 
-        <section id="booking">
-            <h2>Appointment</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+        <main>
+    <form method="GET" action="thankyou.html" class="designOne">
+      <label>First Name 
+        <input type="text" name="first" required autocomplete="given-name" title="Your First Name">
+      </label>
+      <label>Last Name 
+        <input type="text" name="last" required autocomplete="family-name" title="Your Last Name">
+      </label>
+      <label>Cell Phone 
+        <input type="tel" name="phone" required autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234">
+      </label>
+      <label>Email 
+        <input type="email" name="email" required placeholder="john89@gmail.com" title="Your Email" autocomplete="email">
+      </label>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+      <label>Type of service:
+        <select name="membership" required>
+          <option value="">Choose an option</option>
+          <option value="Cake Partyu">Party Cakes</option>
+          <option value="Luxury Sweets">Luxury Sweets</option>
+          <option value="Custom made sweets">Custom made sweets</option>
+          <option value="Other">Other</option>
+        </select>
+      </label>
 
-                <label for="service">Service:</label>
-                <select id="service" name="service" required>
-                    <option value="">...</option>
-                    <option value="hair">Cake catalogue</option>
-                    <option value="nails">Party sweets catalogue</option>
-                    <option value="esthetics">Customized sweets</option>
-                </select>
+      <label for="date">Date of the appointment:</label>
+        <input type="date" id="date" name="date" required>
 
-                <label for="date">Date:</label>
-                <input type="date" id="date" name="date" required>
+        <label for="time">Choose a time:</label>
+        <input type="time" id="time" name="time">
 
-                <button type="submit">Book</button>
-            </form>
+      <input type="hidden" name="timestamp" id="timestamp">
+      <input type="submit" value="Submit">
+    </form>
         </section>
     </main>
+
+
+    <div class="extra">
+      <a href="https://br.linkedin.com/"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+      <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+    </div>
 
     <footer>
         <p>&copy; 2025 Fino Mel. All rights reserved.</p>
