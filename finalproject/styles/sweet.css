@@ -43,6 +43,11 @@ header h1 {
     font-size: 1.2rem;
 }
 
+#nav-list li a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 #nav-list li a:hover {
     text-decoration: underline;
 }
@@ -288,6 +293,12 @@ details p {
   color: #333;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;       /* Remove recuo padrão */
+    margin: 0;        /* Remove margem padrão, opcional */
 }
 
 footer {

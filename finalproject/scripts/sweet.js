@@ -15,6 +15,20 @@ async function loadMenu() {
         li.appendChild(a);
         navList.appendChild(li);
     });
+
+    // --- Wayfinding (marca o link ativo) ---
+    const links = navList.querySelectorAll('a');
+    let current = window.location.pathname;
+    current = current.substring(current.lastIndexOf('/') + 1) || 'index.html';
+
+    links.forEach(link => {
+        const linkPath = new URL(link.href, window.location.origin).pathname;
+        const linkFile = linkPath.substring(linkPath.lastIndexOf('/') + 1) || 'index.html';
+        if (linkFile === current) {
+            link.classList.add('active');
+        }
+    });
+    // --- Fim do wayfinding ---
 }
 
 // Função para alternar a visibilidade do menu

@@ -101,36 +101,25 @@ main {
     margin-bottom: 20px;
 }
 
-#services {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-#services h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-#services img{
-    height: 250px;
-    margin: 20px;
-}
-
-.service-grid {
+section[id="cakes"], section[id="sweets"], section[id="customized"] {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+    padding: 10px;
 }
 
-.service-card {
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+/* Imagens */
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
 }
 
-.service-card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+section img:hover {
+    transform: scale(1.05);
 }
 
 .cta-button {
