@@ -11,12 +11,12 @@ async function loadMenu() {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.textContent = item.text;
-        a.href = item.link; // Usa o link do JSON
+        a.href = item.link; 
         li.appendChild(a);
         navList.appendChild(li);
     });
 
-    // --- Wayfinding (marca o link ativo) ---
+    // --- Wayfinding  ---
     const links = navList.querySelectorAll('a');
     let current = window.location.pathname;
     current = current.substring(current.lastIndexOf('/') + 1) || 'index.html';
@@ -28,7 +28,6 @@ async function loadMenu() {
             link.classList.add('active');
         }
     });
-    // --- Fim do wayfinding ---
 }
 
 // Função para alternar a visibilidade do menu
@@ -37,15 +36,15 @@ function toggleMenu() {
     nav.classList.toggle('active');
 }
 
-// Carrega o menu e adiciona eventos quando a página é carregada
+// Carrega menu, adiciona eventos quando a página for carregada
 document.addEventListener('DOMContentLoaded', () => {
     loadMenu();
 
-    // Adiciona o evento de clique ao botão do menu hambúrguer
+    // Coloca o evento de clique ao botão do menu hambúrguer
     const hamburgerBtn = document.getElementById('hamburger-btn');
     hamburgerBtn.addEventListener('click', toggleMenu);
 
-    // Validação do formulário de agendamento (se existir na página)
+    // Valida o formulário de agendamento
     const bookingForm = document.getElementById('booking-form');
     if (bookingForm) {
         bookingForm.addEventListener('submit', function (event) {
