@@ -241,6 +241,55 @@ form button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+#services {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff8f5; /* leve tom mel */
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#services h2 {
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #3e2723;
+}
+
+details {
+  background-color: #ffffff;
+  border: 1px solid #FFE4E1;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+details:hover {
+  background-color: #FFE4E1;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #5e3b24;
+  outline: none;
+}
+
+details[open] summary {
+  color: #b56a2a;
+}
+
+details p {
+  margin-top: 10px;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 footer {
     background-color: #a2d4c3;
     color: white;
