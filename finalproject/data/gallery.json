@@ -1,0 +1,92 @@
+[
+    {
+    "name": "Wedding Cake 5 layer",
+    "price": "$350-$550",
+    "category": "Wedding Cake",
+    "image": "images/bolo3.jpg"
+  },
+  {
+    "name": "Wedding Cake 4 layer",
+    "price": "$150-$350",
+    "category": "Wedding Cake",
+    "image": "images/bolo1.jpg"
+  },
+  {
+    "name": "Wedding Cake 3 layer",
+    "price": "$120-$300",
+    "category": "Wedding Cake",
+    "image": "images/bolo2.jpeg"
+  },
+  {
+    "name": "Wedding Cake 2 layer",
+    "price": "$100-$220",
+    "category": "Cake",
+    "image": "images/bolo4.jpg"
+  },
+   {
+    "name": "Simples Wedding Cake 2 layer, no decorations",
+    "price": "$80",
+    "category": "Cake",
+    "image": "images/bolo5.webp"
+  },
+  {
+    "name": "Custom Cake (please contact us)",
+    "price": "$250+",
+    "category": "Custom",
+    "image": "images/caket1.jpg"
+  },
+  {
+    "name": "Brigadeiros",
+    "price": "$12 each 15 units",
+    "category": "Sweet",
+    "image": "images/doce9.jpg"
+  },
+  {
+    "name": "Sweets in cups",
+    "price": "$20 each 15 units",
+    "category": "Sweet",
+    "image": "images/doce2.jpg"
+  },
+  {
+    "name": "Custom donnuts",
+    "price": "$10 each 5 units",
+    "category": "Custom",
+    "image": "images/docet11.jpg"
+  },
+  {
+    "name": "Custom Sweet made with milk powder",
+    "price": "$725 each 10 units",
+    "category": "Custom",
+    "image": "images/docet1.jpg"
+  },
+  {
+    "name": "Cake pop",
+    "price": "$10 each 15 units",
+    "category": "Sweet",
+    "image": "images/docet7.jpg"
+  },
+  {
+    "name": "Special Cake",
+    "price": "$50",
+    "category": "Custom",
+    "image": "images/caket4.webp"
+  },
+  {
+    "name": "Camafeu",
+    "price": "$25 each 15 units",
+    "category": "Sweet",
+    "image": "images/doce6.jpg"
+  },
+  {
+    "name": "Custom Brigadeiros (please contact us)",
+    "price": "$320 each 10 units",
+    "category": "Custom",
+    "image": "images/docet5.webp"
+  },
+  {
+    "name": "Chocolate Truffle",
+    "price": "$25 each 15 units",
+    "category": "Sweet",
+    "image": "images/doce4.jpg"
+  }
+]

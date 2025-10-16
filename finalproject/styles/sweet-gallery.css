@@ -11,6 +11,7 @@ body {
     background-color: white;
 }
 
+/* Header */
 header {
     position: sticky;
     top: 0;
@@ -23,8 +24,8 @@ header {
     align-items: center;
 }
 
-header h1 {
-    font-size: 2.5rem;
+header h2 {
+    font-size: 2rem;
 }
 
 #main-nav {
@@ -43,8 +44,10 @@ header h1 {
     font-size: 1.2rem;
 }
 
-#nav-list li a:hover {
+#nav-list li a:hover,
+#nav-list li a.active {
     text-decoration: underline;
+    font-weight: bold;
 }
 
 #hamburger-btn {
@@ -56,6 +59,7 @@ header h1 {
     cursor: pointer;
 }
 
+/* Menu responsivo */
 @media (max-width: 768px) {
     #hamburger-btn {
         display: block;
@@ -69,6 +73,7 @@ header h1 {
         left: 0;
         width: 100%;
         padding: 10px;
+        background-color: #a2d4c3;
     }
 
     #main-nav.active {
@@ -81,6 +86,7 @@ header h1 {
     }
 }
 
+/* Main content */
 main {
     padding: 20px;
 }
@@ -91,9 +97,9 @@ main {
     background-color: #e7d5d5;
 }
 
-#welcome h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+#welcome h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
 }
 
 #welcome p {
@@ -101,27 +107,46 @@ main {
     margin-bottom: 20px;
 }
 
-section[id="cakes"], section[id="sweets"], section[id="customized"] {
+/* Galeria dinâmica */
+#gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    margin: 20px 0;
-    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
 }
 
-/* Imagens */
-section img {
+/* Cards da galeria */
+.service-card {
+    background-color: #f8f4f4;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card img {
     width: 100%;
     height: auto;
     border-radius: 12px;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
     transition: transform 0.3s ease;
 }
 
-section img:hover {
+.service-card img:hover {
     transform: scale(1.05);
 }
 
+.service-card h3 {
+    font-size: 1.3rem;
+    margin: 10px 0 5px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Botões */
 .cta-button {
     background-color: #a2d4c3;
     color: white;
@@ -133,26 +158,30 @@ section img:hover {
 }
 
 .cta-button:hover {
-    background-color: #a2d4c3;
+    background-color: #b8918c;
     transform: scale(1.05);
 }
 
+/* Ícones extra */
 .extra {
-    margin:5px auto;
+    margin: 30px auto;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
-.extra img{
-    width: 85px;
-    margin-bottom: 2px;
+.extra img {
+    width: 60px;
+    height: auto;
 }
 
+/* Footer */
 footer {
     background-color: #a2d4c3;
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 30px;
 }
